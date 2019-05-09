@@ -53,3 +53,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'spring'
+gem "rspec-rails"
+gem 'spring-commands-rspec'
+gem "factory_bot_rails"
+gem 'faker'
+gem 'capybara', '~> 2.13'
+gem "database_cleaner"
+gem "launchy"
+gem 'selenium-webdriver'
